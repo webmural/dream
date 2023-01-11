@@ -4,17 +4,11 @@
 }
 
 :root {
-  background: silver;
+  background-color: silver;
+  background-image: linear-gradient(.8turn, #ec0, #bee, #ee1);
   color: #212;
 }
 
 :any-link {
   color: indigo;
-}
-
-@media (prefers-contrast: more) {
-  :root {
-    background: gainsboro;
-    color: #201;
-  }
 }
